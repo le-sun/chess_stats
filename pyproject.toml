@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "chess_proj"
+version = "0.1.0"
+description = ""
+authors = ["Leo <leo.sun@berkeley.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^4.0.9"
+seaborn = "^0.13.0"
+chess = "^1.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
